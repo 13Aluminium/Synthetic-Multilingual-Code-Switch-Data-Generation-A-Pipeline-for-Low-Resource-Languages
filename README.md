@@ -1,7 +1,22 @@
 # Synthetic-Multilingual-Code-Switch-Data-Generation-A-Pipeline-for-Low-Resource-Languages
 
 ## Research project still going on
- 
+---
+### Generation_2
+
+#### Start-Notes on Generation_2
+
+During the last generation, I understood that we lacked that contextual switching, so I went and tried to find a paper which might have implemented something like this, and as always chinese researcher had done something like this in 2019, for mandrin-english in the paper named ![**Code-Switched Language Models
+Using Neural Based Synthetic Data from Parallel Sentences**](https://arxiv.org/abs/1909.08582), so naturally i have tried to replicate this approach, but there was a problem, they had used a ![**SEAME Phase II**](https://catalog.ldc.upenn.edu/LDC2015S04) dataset, which is a *Mandarin-English Code-Switching* Speech and transcript datast, but for *Hindi-English* I couldn't find anything, so I took a small dataset from kaggle just to try the approach, still this is a long-shot.
+
+#### About the Paper
+
+
+
+
+
+
+----
 ### Generation_1
 This is a systematic approach to generate contextually accurate code-switched sentences (English-Hindi) using machine translation, transliteration, and linguistic rules. The goal is to create natural-sounding sentences where words from Hindi (embedded language) are mixed into an English (matrix language) framework, adhering to syntactic and semantic constraints.
 
